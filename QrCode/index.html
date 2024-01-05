@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qr Code</title>
+    <link rel="icon" href="">
+    <style>
+        @font-face {
+            font-family: 'Outfit';
+            src: url('https://fonts.google.com/specimen/Outfit');
+        }
+
+        * {
+        margin: 0;
+        padding: 0;
+        }
+
+        body {
+        background-color: rgb(174, 204, 224);
+        color: rgb(32, 31, 31);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh; 
+        font-family: 'Outfit', sans-serif;
+        }
+
+        .qr-code-body {
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+        background-color: aliceblue;
+        border-radius: 18px;
+        }
+
+        .qr-image {
+        width: 288px;
+        height: 288px;
+        margin: 0 auto; 
+        text-align: center; /
+        }
+
+        .qr-writeup {
+        padding: 12px;
+        width: 255px;
+        margin: 0 auto; 
+        }
+
+        .main-writeup-para {
+        text-align: center;
+        font-weight: 400;
+        padding: 20px 0 20px ;
+        }
+
+        h3{
+            font-family: Outfit 'https://fonts.google.com/specimen/Outfit';
+            text-align: center;
+            padding: 10px;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="qr-code-body">
+                <div class="qr-image">
+                    <img src="C:\Users\faith\Desktop\ALL PREVIOUS DESKTOP FOLDERS\Webpages Building\in progress\qr code\qr-code-component-main\images\image-qr-code.png" alt="qr code contained here!" style="width: 288px; height: 288px; border-radius: 10px;">
+                </div>
+                <div class="qr-writeup">
+                    <p class="seperation-para">
+                        <h3 id="writeup-heading">
+                            Improve your front-end skills by building projects
+                        </h3>
+                        <p class="main-writeup-para">
+                            Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+                        </p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
